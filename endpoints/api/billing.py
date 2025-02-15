@@ -250,7 +250,7 @@ class ListPlans(ApiResource):
     @nickname("listPlans")
     def get(self):
         """
-        List the avaialble plans.
+        List the available plans.
         """
         return {
             "plans": PLANS,
